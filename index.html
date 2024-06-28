@@ -3,12 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Gitzada</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./main.css">
+
+    <title>Cinema</title>
 </head>
-<body onload=alerta()>
-    <h1>Aprendendo Git</h1>
-    <p>um paragrafo para o site para o git</p>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./imagens/logo.png" alt="logo">
+        </div><!--logo-->
+        <div class="header-links">
+            <ul>
+                <li>Comprar</li>
+                <li>Destaque</li>
+                <li>ingressos</li>
+            </ul>
+        </div><!--headar-links-->
+    </header>
+    <main>
+        <div class="container">
+
+            <div style="background-image: url(./imagens/bannerGodzilla.jpg);" class="filme">
+                <div class="link">
+                    <a href="/">Godzilla e Kong</a>
+                </div><!--link-->
+            </div><!--filme-->
+
+            <div style="background-image: url(./imagens/bannerDivertidamente.jpg);" class="filme">
+                <div class="link">
+                <a href="/">Divertidamente 2</a>
+                </div><!--link-->
+            </div><!--filme-->
+
+            <div style="background-image: url(./imagens/bannerDeadpool.jpg);" class="filme">
+                <div class="link">
+                    <a href="/">Deadpool & Wolverine</a>
+                </div><!--link-->
+            </div><!--filme-->
+
+            <div style="background-image: url(./imagens/bannerHomemAranha.jpg);" class="filme">
+                <div class="link">
+                    <a href="/">Homem-Aranha: No Aranhaverso</a>
+                </div><!--link-->
+            </div><!--filme-->
+
+            <div style="background-image: url(./imagens/bannerVingadores.jpg);" class="filme">
+                <div class="link">
+                    <a href="/">Os Vingadores</a>
+                </div><!--link-->
+            </div><!--filme-->
+        </div>
+    </main>
 <script src="scripts.js"></script>
 </body>
 </html>
