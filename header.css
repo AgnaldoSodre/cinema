@@ -1,0 +1,53 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/bg1.jpg);
+    background-size: cover;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color:rgb(12, 6, 6);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+header .logo{
+    height: 100%;
+    width: 300px;
+    margin-left: 5%;
+}
+
+.logo img{
+    height: 70px;
+}
+
+.logo img:hover{
+    filter: brightness(0) saturate(100%) invert(52%) sepia(49%) saturate(7350%) hue-rotate(357deg) brightness(96%) contrast(109%);
+}
+
+.header-links{
+    margin-right: 5%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+}
+
+.header-links ul{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.header-links ul li{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+.header-links ul li:hover{
+    color: rgb(255, 77, 0);
+}
